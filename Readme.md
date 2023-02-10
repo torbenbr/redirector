@@ -18,4 +18,3 @@ docker run -p 80:80 torbenbr/redirector
 | REDIRECT_STATUS   | 301               | 
 | REDIRECT_URL      | https://localhost |
 | HEALTH_CHECK_URL  | /health-check     |
-
