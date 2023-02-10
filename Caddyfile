@@ -1,3 +1,9 @@
-{$SERVER_NAME} {
+{$SERVER_NAME}
+
+route /${HEALTH_CHECK_URL} {
+    respond  200
+}
+
+route / {
     redir {$REDIRECT_URL} {$REDIRECT_STATUS}
 }

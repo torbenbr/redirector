@@ -12,8 +12,10 @@ docker run -p 80:80 torbenbr/redirector
 
 # Environment variables
 
-| Name            | Default           |
-|-----------------|-------------------|
-| SERVER_NAME     | :80               |
-| REDIRECT_STATUS | 301               | 
-| REDIRECT_URL    | https://localhost |
+| Name              | Default           |
+|-------------------|-------------------|
+| SERVER_NAME       | :80               |
+| REDIRECT_STATUS   | 301               | 
+| REDIRECT_URL      | https://localhost |
+| HEALTH_CHECK_URL  | /health-check     |
+
